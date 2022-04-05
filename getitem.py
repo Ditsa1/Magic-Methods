@@ -4,9 +4,9 @@ class A:
     def __getitem__(self, index):
         return self.item[index]
 a = A([1, 2, 3])
-print(f"First item: {a[0]}")
-print(f"Second item: {a[1]}")
-print(f"Third item: {a[2]}")
+print("First item:",a[0])
+print("Second item:",a[1])
+print("Third item:",a[2])
 # Output: 
 # First item: 1
 # Second item: 2
